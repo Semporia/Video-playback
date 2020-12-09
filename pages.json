@@ -1,0 +1,46 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/main/splash",
+			"style": {}
+		},
+		{
+			"path": "pages/main/settings",
+			"style": {}
+		},
+		{
+			"path": "pages/main/login",
+			"style": {}
+		},
+		{
+			"path": "pages/main/shipin",
+			"style": {}
+		},
+		{
+			"path": "pages/main/setup",
+			"style": {}
+		},
+		{
+			"path": "pages/main/chat",
+			"style": {}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "Video playback",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true
+
+}
